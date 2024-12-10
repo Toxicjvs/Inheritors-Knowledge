@@ -1,0 +1,3 @@
+Open Powershell
+Type in the command: Set-ExecutionPolicy RemoteSigned
+    *This command requires all PowerShell scripts that you download from the internet to be signed by a trusted publisher. The purpose of this is to prevent malicious/untrusted scripts from being downloaded and ran*
