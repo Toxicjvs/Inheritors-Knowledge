@@ -1,0 +1,11 @@
+Uninstall display adaptor
+
+Open Device Manager as an Administrator 
+
+Drop down Display adaptors
+
+Right click on the main display adaptor, This is normally the top one
+
+Then select uninstall.
+
+This should fix the issue please keep in mind you may will want to install another driver as it will limit the hz and screen resolution.
