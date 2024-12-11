@@ -1,0 +1,6 @@
+ms:settings: - this opens the windows settings
+ms:settings:batterysaver - this opens the Power & Battery section of window settings
+
+cmd - opens command prompt
+
+powershell - opens powershell
