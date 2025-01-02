@@ -1,5 +1,8 @@
 Microsoft Azure AD Sync service getting the following error.
 
+![image](https://github.com/user-attachments/assets/886d804d-1fdc-446d-8a2c-27eb4ecc17ba)
+
+
 Windows could not start the Microsoft Azure AD Sync Service on Local Computer.
 Error 1068: The dependency service or group failed to start.
 
