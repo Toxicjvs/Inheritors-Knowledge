@@ -4,3 +4,5 @@ ms:settings:batterysaver - this opens the Power & Battery section of window sett
 cmd - opens command prompt
 
 powershell - opens powershell
+
+ncpa.cpl - network adapter control panel
