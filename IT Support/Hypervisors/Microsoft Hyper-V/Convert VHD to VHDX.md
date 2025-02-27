@@ -48,3 +48,4 @@ change the disk to the new VHDX file.
 ![alt text](image-9.png)
 
 https://www.bdrsuite.com/blog/how-to-convert-vhd-to-vhdx-using-hyper-v-manager-and-powershell/
+
