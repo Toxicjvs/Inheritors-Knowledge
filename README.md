@@ -7,7 +7,7 @@ To explore Inheritor's Knowledge, you can start by:
 
 1. Browsing through the different sections and categories available.
 2. Searching for specific topics using the search bar.
-3/ Reviewing articles, guides, or troubleshooting steps that interest you.
+3. Reviewing articles, guides, or troubleshooting steps that interest you.
 
 If you're new to IT or want to deepen your understanding, we suggest starting with the basics and gradually progressing to more advanced content.
 
