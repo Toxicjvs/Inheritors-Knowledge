@@ -1,0 +1,15 @@
+%windir% = C:\Windows
+    This goes to the windows directory
+
+%temp% = User temp folder
+    This is usually located in C:\Users\<username>\AppData\Local\Temp
+
+%appdata% - this goes to the roaming folder within the hidden appdata folder
+    This is usually located in C:\Users\<username>\AppData\Roaming
+
+%localappdata% - this goes to the "local" folder within the hidden appdata folder
+    This is usually located in C:\Users\<username>\AppData\local
+
+%appdata%\..\locallow - this goes to the local low folder within the hidden appdata folder
+    The ".." addition allows us to fall back a folder before where %appdata% would normally take us to
+    This is usually located in C:\Users\<username>\AppData\locallow\

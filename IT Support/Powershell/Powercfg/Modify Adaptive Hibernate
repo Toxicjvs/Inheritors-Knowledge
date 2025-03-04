@@ -1,0 +1,6 @@
+Microsoft Learn Guide: https://learn.microsoft.com/en-us/windows-hardware/customize/power-settings/adaptive-hibernate
+
+Powershell Command Overview:
+StandbyBudgetPercent
+StandbyBudgetRefreshInterval
+StandbyBudgetRefreshCount

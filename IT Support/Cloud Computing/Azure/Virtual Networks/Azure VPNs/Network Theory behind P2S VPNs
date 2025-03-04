@@ -1,0 +1,20 @@
+Network Theory behind Azure P2S (Point-to-Site) VPNs
+
+First off you create the virtual network, this contains a Subnet that will house all the Azure resources you will be using when connected to the VPN; this can contain VMs, Blob Storage, 3D rendering services etc.
+The virtual network will have an IPv4 address space for all the subnets contained it; for this example it will be 10.1.0.0./16 (10.1.0.0 - 10.1.255.255)
+The virtual network will then have a main subnet created on it; for this example it will be 10.1.0.0/24 (10.1.0.0 - 10.1.0.255)
+From this, the entire VNet has an IP Address space of 10.1.0.0-10.1.255.255. The Subnet we have just created will occupy the IP range of 10.1.0.0-10.1.0.255. This leaves the following IPs available, 10.1.1.0-10.1.255.255.
+Think of the VNet as the Firewall and the Subnet as the LAN X1 Port.
+
+You then have to create a VPN Gateway, this is a separate subnet that facilitates and receives the VPN traffic. You cannot connect directly to the main subnet on the VNet, you have to first direct your traffic into the virtual network via a VPN gateway.
+Think of it this way, on a SonicWall, you have a LAN and VPN port. You cannot have the VPN come directly into the LAN port, you first have to receive the traffic from the VPN port. Through routing, this then allows you to communicate on the LAN network.
+That now means that on the VNet (firewall), we have 2 subnets (ports); we have the main subnet (LAN) and a VPN Gateway Subnet (VPN port)
+This VPN Gateway can be configured in an active-active or active-standby mode. This is a high-availability mode. It gives you 2 lines (2 public IPs) into the Gateway to use in-case 1 fails. Like briefly mentioned, you will have to create 2 public IPs so there are 2 lines into the VPN gateway.
+
+Once the VPN Gateway is created, you can then create a Point-to-site (P2S) VPN. When creating this, you specify a IP pool that you will be assigned to a device when it is created. This allows you to differentiate traffic from the VPN to traffic internal to the main subnet.
+If you have an Active-active VPN Gateway configured, you then need a 3rd public IP. The reason this is needed is so that the VPN client itself has a public IP that azure can use to connect to whichever Public IP is active on the VPN Gateway.
+
+Microsoft Articles for creating a P2S VPN.
+Creating a Virtual Network and VPN Gateway: https://learn.microsoft.com/en-us/azure/vpn-gateway/tutorial-create-gateway-portal
+Configuring a P2S VPN using Certificate Authentication: https://learn.microsoft.com/en-us/azure/vpn-gateway/point-to-site-certificate-gateway
+Configuring a P2S VPN using Entra/Azure Active Directory: https://learn.microsoft.com/en-gb/azure/vpn-gateway/openvpn-azure-ad-tenant
