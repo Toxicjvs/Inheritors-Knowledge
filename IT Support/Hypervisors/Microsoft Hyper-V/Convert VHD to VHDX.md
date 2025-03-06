@@ -12,7 +12,7 @@ NOTE: VHDX files cannot be used on versions of Hyper-V prior to Windows 8 or 201
 1. Open Hyper-V Manager then select and right lcick on the virtual machine which has the disk youd like to convert.
 Then select "Settings"
 
-![alt text](https://github.com/Lord-Sheldon/Inheritors-Knowledge/blob/Work-in-Progress/IT%20Support/Hypervisors/Microsoft%20Hyper-V/Images/Convert%20VHD%20to%20VHDX/image.png)
+![alt text](https://github.com/Lord-Sheldon/Inheritors-Knowledge/blob/Work-in-Progress/IT%20Support/Hypervisors/Microsoft%20Hyper-V/Images/Convert%20VHD%20to%20VHDX/image-1.png)
 
 2. Within the hardware tab selecr the disk youd like to convert. Select Edit on the disk.
 
