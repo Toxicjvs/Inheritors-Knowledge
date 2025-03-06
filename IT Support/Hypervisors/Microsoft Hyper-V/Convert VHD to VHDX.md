@@ -20,32 +20,32 @@ Then select "Settings"
 
 3. Click next from the Locate Disk page.
 
-![alt text](https://github.com/Lord-Sheldon/Inheritors-Knowledge/blob/Work-in-Progress/IT%20Support/Hypervisors/Microsoft%20Hyper-V/Images/Convert%20VHD%20to%20VHDX/image-2.png)
+![alt text](https://github.com/Lord-Sheldon/Inheritors-Knowledge/blob/Work-in-Progress/IT%20Support/Hypervisors/Microsoft%20Hyper-V/Images/Convert%20VHD%20to%20VHDX/image-3.png)
 
 4. Select Convert and click next
 
-![alt text](https://github.com/Lord-Sheldon/Inheritors-Knowledge/blob/Work-in-Progress/IT%20Support/Hypervisors/Microsoft%20Hyper-V/Images/Convert%20VHD%20to%20VHDX/image-3.png)
+![alt text](https://github.com/Lord-Sheldon/Inheritors-Knowledge/blob/Work-in-Progress/IT%20Support/Hypervisors/Microsoft%20Hyper-V/Images/Convert%20VHD%20to%20VHDX/image-4.png)
 
 5. Select the VHDX format and then click next
 
-![alt text](https://github.com/Lord-Sheldon/Inheritors-Knowledge/blob/Work-in-Progress/IT%20Support/Hypervisors/Microsoft%20Hyper-V/Images/Convert%20VHD%20to%20VHDX/image-4.png)
+![alt text](https://github.com/Lord-Sheldon/Inheritors-Knowledge/blob/Work-in-Progress/IT%20Support/Hypervisors/Microsoft%20Hyper-V/Images/Convert%20VHD%20to%20VHDX/image-5.png)
 
 6. Select the type of converted disk you need. I would always recommended "Fixed Size" as the other can cause problem.
 
-![alt text](https://github.com/Lord-Sheldon/Inheritors-Knowledge/blob/Work-in-Progress/IT%20Support/Hypervisors/Microsoft%20Hyper-V/Images/Convert%20VHD%20to%20VHDX/image-5.png)
+![alt text](https://github.com/Lord-Sheldon/Inheritors-Knowledge/blob/Work-in-Progress/IT%20Support/Hypervisors/Microsoft%20Hyper-V/Images/Convert%20VHD%20to%20VHDX/image-6.png)
 
 7. Enter the location to save and name the new conveted disk, Click next.
 
-![alt text](https://github.com/Lord-Sheldon/Inheritors-Knowledge/blob/Work-in-Progress/IT%20Support/Hypervisors/Microsoft%20Hyper-V/Images/Convert%20VHD%20to%20VHDX/image-6.png)
+![alt text](https://github.com/Lord-Sheldon/Inheritors-Knowledge/blob/Work-in-Progress/IT%20Support/Hypervisors/Microsoft%20Hyper-V/Images/Convert%20VHD%20to%20VHDX/image-7.png)
 
 8. Click finish and start the conversion.
 
-![alt text](https://github.com/Lord-Sheldon/Inheritors-Knowledge/blob/Work-in-Progress/IT%20Support/Hypervisors/Microsoft%20Hyper-V/Images/Convert%20VHD%20to%20VHDX/image-7.png)
+![alt text](https://github.com/Lord-Sheldon/Inheritors-Knowledge/blob/Work-in-Progress/IT%20Support/Hypervisors/Microsoft%20Hyper-V/Images/Convert%20VHD%20to%20VHDX/image-8.png)
 
 9. Conversion can take some time depends on the size of the disk. When done go into the settings of the virtual machine.
 change the disk to the new VHDX file.
 
-![alt text](https://github.com/Lord-Sheldon/Inheritors-Knowledge/blob/Work-in-Progress/IT%20Support/Hypervisors/Microsoft%20Hyper-V/Images/Convert%20VHD%20to%20VHDX/image-8.png)
+![alt text](https://github.com/Lord-Sheldon/Inheritors-Knowledge/blob/Work-in-Progress/IT%20Support/Hypervisors/Microsoft%20Hyper-V/Images/Convert%20VHD%20to%20VHDX/image-9.png)
 
 https://www.bdrsuite.com/blog/how-to-convert-vhd-to-vhdx-using-hyper-v-manager-and-powershell/
 
