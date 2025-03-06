@@ -16,7 +16,7 @@ Then select "Settings"
 
 2. Within the hardware tab select the disk youd like to convert. Select Edit on the disk.
 
-https://github.com/Lord-Sheldon/Inheritors-Knowledge/blob/Work-in-Progress/IT%20Support/Hypervisors/Microsoft%20Hyper-V/Images/Convert%20VHD%20to%20VHDX/image-2.png
+![alt text](https://github.com/Lord-Sheldon/Inheritors-Knowledge/blob/Work-in-Progress/IT%20Support/Hypervisors/Microsoft%20Hyper-V/Images/Convert%20VHD%20to%20VHDX/image-2.png)
 
 3. Click next from the Locate Disk page.
 
