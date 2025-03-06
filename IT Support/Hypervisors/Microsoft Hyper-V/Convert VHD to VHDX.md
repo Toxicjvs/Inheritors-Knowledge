@@ -14,7 +14,7 @@ Then select "Settings"
 
 ![alt text](image.png)
 
-2. Within the hardware tab selecr the disk youd like to convert. Select Edit on the disk.
+2. Within the hardware tab select the disk youd like to convert. Select Edit on the disk.
 
 ![alt text](image-2.png)
 
