@@ -1,6 +1,6 @@
 ## **Storage Management**
 
-### **11. Pass-through Disk Configuration**
+### **Pass-through Disk Configuration**
 
 Pass-through disks allow a virtual machine (VM) to directly access physical storage on the Hyper-V host. This is often used in scenarios where performance or special hardware requirements necessitate the VM using a physical disk directly, bypassing the virtual disk layer.
 
