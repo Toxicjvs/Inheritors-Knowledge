@@ -190,3 +190,5 @@ Get-WindowsFeature -Name Hyper-V*
 | VM won’t start | Insufficient resources, Secure Boot mismatch | Adjust resource allocation, check firmware settings |
 | Network adapter missing | Virtual switch not configured | Create Virtual Switch in Hyper-V Manager |
 | Cannot manage Hyper-V remotely | Firewall settings, missing admin rights | Enable Remote Management, configure firewall exceptions |
+
+---
