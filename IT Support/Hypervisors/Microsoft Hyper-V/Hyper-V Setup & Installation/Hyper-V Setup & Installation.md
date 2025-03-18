@@ -1,4 +1,4 @@
-# ✅ Hyper-V Role Installation Guide  
+# Hyper-V Role Installation Guide  
 ### *Step-by-Step, Detailed Instructions for Installing Hyper-V on Bare-Metal Servers and Desktop Systems*
 
 ---
