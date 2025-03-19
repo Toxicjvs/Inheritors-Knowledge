@@ -1,4 +1,4 @@
-## **15. Port Mirroring in Hyper-V**
+## **Port Mirroring in Hyper-V**
 
 Port mirroring in Hyper-V allows the monitoring of network traffic between virtual machines (VMs). It enables network administrators to capture and analyze network packets to diagnose issues, conduct security monitoring, or troubleshoot networking problems within the virtual environment. By mirroring network traffic from one VM to another (the destination VM), you can inspect the traffic passing through the source VM without affecting the source VM's performance.
 
